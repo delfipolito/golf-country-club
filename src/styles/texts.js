@@ -228,7 +228,7 @@ export const BoldL = styled.p`
 
 export const Container = styled.div`
   margin: auto;
-  max-width: 1140px;
+  max-width: 90%;
   @media only screen and (min-width: 701px) and (max-width: 1200px) {
     max-width: 90%;
   }

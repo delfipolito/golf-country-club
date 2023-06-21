@@ -1,46 +1,41 @@
 import React from 'react'
 import styled from 'styled-components'
-import laptop from '../assets/laptop.svg'
+import henrry from '../assets/henrry.jpeg'
 import telegram from '../assets/telegram.svg'
 import discord from '../assets/discord.svg'
-import { H1, BodyL, Container } from '../styles/texts'
+import { H3, H6, BodyL, Container } from '../styles/texts'
 
 const TrackActivity = () => (
   <TrackActivitySection>
-    <TrackActivityContainer>
+    <Henrry>
       <div>
-        <H1>Track all activity on chain</H1>
-        <Body>With notifications on <img src={telegram} alt="telegram"/> <img src={discord} alt="discord"/></Body>
+        <H3>Henrry Smith </H3>
+        <H6>Green lounge</H6>
+        <br/><br/>
+        <BodyL>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum
+        </BodyL>
       </div>
-      <div>
-        <img src={laptop} alt="mimic finance"/>
-      </div>
-    </TrackActivityContainer>
+    </Henrry>
+
+    <img src={henrry} alt="henrry smith" />
   </TrackActivitySection>
 )
 
 const TrackActivitySection = styled.section`
-  background: #1B1F24;
-  // min-height: 100vh;
+  background: linear-gradient(#15625b, #106637);
   height: auto;
-  min-height: 900px;
-  @media only screen and (max-width: 700px) {
-    min-height: 580px;
-  }
-`
-
-const Body = styled(BodyL)`
+  min-height: 540px;
   display: flex;
-  align-items: center;
-  img {
-    margin: 0 16px;
-  }
-`
-
-const TrackActivityContainer = styled(Container)`
-  display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
+  margin: 0;
   @media only screen and (max-width: 700px) {
     flex-direction: column;
     img {
@@ -48,9 +43,25 @@ const TrackActivityContainer = styled(Container)`
     }
   }
   gap: 0px;
-  h1 {
-    width: 450px;
+
+  img {
+    object-fit: contain;
+    max-width: 800px;
+    margin-right: 0;
   }
+  @media only screen and (max-width: 700px) {
+    min-height: 580px;
+  }
+`
+
+const Henrry = styled.div`
+  height: 540px;
+  width: calc(100vw - 800px);
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 `
 
 export default TrackActivity

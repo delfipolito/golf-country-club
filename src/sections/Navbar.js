@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
-import logo from '../assets/logo-navbar.svg'
+import logo from '../assets/golff.svg'
 import Menu from '../components/Menu'
 import Tabs from '../components/Tabs'
 import Hamburger from 'hamburger-react'
@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <NavbarSection>
       <NavbarContainer className={!isOpen && 'isClosed'}>
-        <Logo src={logo} alt="mimic finance"/>
+        <Logo src={logo} alt="golf country club"/>
         {width >= medium ? (
           <Tabs mode={'large'} />
         ) : (
@@ -32,8 +32,9 @@ const Navbar = () => {
 }
 
 const Logo = styled.img`
+height: 90px;
   @media only screen and (max-width: 700px) {
-    height: 37px;
+    height: 50px;
   }
 `
 
@@ -64,7 +65,7 @@ const NavbarSection = styled.section`
 `
 
 const NavbarContainer = styled(Container)`
-  padding: 24px 0;
+  padding: 14px 0;
   margin-top: 0;
   margin-bottom: 0;
   @media only screen and (max-width: 700px) {
