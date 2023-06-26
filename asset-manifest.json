@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/golf-country-club/static/css/main.380708b2.css",
+    "main.js": "/golf-country-club/static/js/main.7a4fdaeb.js",
+    "static/js/787.71e672d5.chunk.js": "/golf-country-club/static/js/787.71e672d5.chunk.js",
+    "static/media/bg-golf.jpg": "/golf-country-club/static/media/bg-golf.4ca5c7a3c3a844dcf242.jpg",
+    "static/media/hero2.jpg": "/golf-country-club/static/media/hero2.0faede64fdecd8885dcf.jpg",
+    "static/media/dron.png": "/golf-country-club/static/media/dron.91f17f7f2f78d63022fe.png",
+    "static/media/henrry.jpeg": "/golf-country-club/static/media/henrry.eb9695a32309387a723a.jpeg",
+    "static/media/GTWalsheimPro-Bold.ttf": "/golf-country-club/static/media/GTWalsheimPro-Bold.2dbf49e9fcb548837711.ttf",
+    "static/media/futbol-green.png": "/golf-country-club/static/media/futbol-green.4a51b37a0e12bc73beef.png",
+    "static/media/GTWalsheimPro-Regular.ttf": "/golf-country-club/static/media/GTWalsheimPro-Regular.1fd3cd7ade0f79b2152a.ttf",
+    "static/media/golf-green.png": "/golf-country-club/static/media/golf-green.4f070dff60ccf0e1a46b.png",
+    "static/media/padel-green.png": "/golf-country-club/static/media/padel-green.ba08b0e39731009889d7.png",
+    "static/media/golff.svg": "/golf-country-club/static/media/golff.3581d460c2e4bac7a98cc7c8ac19aa9e.svg",
+    "static/media/404.svg": "/golf-country-club/static/media/404.2d76f321f71809009a8faa1bee3c18cd.svg",
+    "static/media/DXdao.svg": "/golf-country-club/static/media/DXdao.6b9bfdc994ec2b4861e0bff374c5fc42.svg",
+    "static/media/Paraswap.svg": "/golf-country-club/static/media/Paraswap.9ddf81244bf71055622d8910aec3020b.svg",
+    "static/media/Balancer.svg": "/golf-country-club/static/media/Balancer.6bee226f9735d5e81e4ca4c9fe80330c.svg",
+    "static/media/Trustwallet.svg": "/golf-country-club/static/media/Trustwallet.e89b96f2c8926c4f0bd4ef66d21d38a7.svg",
+    "static/media/Descentraland.svg": "/golf-country-club/static/media/Descentraland.719c450ec6a8fec08d05529f894eca79.svg",
+    "static/media/Instagram.svg": "/golf-country-club/static/media/Instagram.fc1203f85bfee02008041aff3d30294f.svg",
+    "static/media/discord.svg": "/golf-country-club/static/media/discord.27fb3cbff9cdaff774c4efa722696b72.svg",
+    "static/media/telegram.svg": "/golf-country-club/static/media/telegram.00234ea0c63a3a5239fa1c1355f62f05.svg",
+    "index.html": "/golf-country-club/index.html",
+    "static/media/Facebook.svg": "/golf-country-club/static/media/Facebook.282e1142e9c65bd2ab2635c1a61a87d9.svg",
+    "main.380708b2.css.map": "/golf-country-club/static/css/main.380708b2.css.map",
+    "main.7a4fdaeb.js.map": "/golf-country-club/static/js/main.7a4fdaeb.js.map",
+    "787.71e672d5.chunk.js.map": "/golf-country-club/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.380708b2.css",
+    "static/js/main.7a4fdaeb.js"
+  ]
+}
