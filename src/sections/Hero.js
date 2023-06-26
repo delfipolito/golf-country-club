@@ -8,7 +8,8 @@ const Hero = () => <HeroSection />
 
 const HeroSection = styled.section`
   width: 100%;
-  height: 90vh;
+  height: calc(90vh + 40px);
+  box-sizing: border-box;
   margin: 0;
   padding: 50px 8.5%;
   background: linear-gradient(135deg, #106637,#15625b);

@@ -16,13 +16,10 @@ const TrustedBy = () => (
           En nuestro club contamos con una cancha de pádel de última generación
           para que nuestros miembros disfruten de este emocionante deporte.
           Además, ofrecemos clases particulares para aquellos que desean mejorar
-          su técnica o aprender a jugar desde cero.<br/>Nuestro equipo de
-          entrenadores profesionales y altamente capacitados se asegurará de que
-          tengas una experiencia divertida y educativa en cada clase. Ya sea que
-          seas un principiante o un jugador experimentado, nuestros entrenadores
-          personalizarán las clases para satisfacer tus necesidades y ayudarte a
-          alcanzar tus metas. <br/><br/>También ofrecemos alquiler de la cancha para
-          aquellos que desean practicar o jugar con amigos.
+          su técnica o aprender a jugar desde cero.
+          <br />
+          <br />
+          Para alquilar la cancha reservá aquí.
         </BodyL>
         <div className="button-strong-div">
           <a
@@ -40,6 +37,7 @@ const TrustedBy = () => (
 
 const TrustedBySection = styled.section`
   background: white;
+  box-sizing: border-box;
   height: auto;
   @media only screen and (max-width: 700px) {
     padding: 60px 0 0 0;

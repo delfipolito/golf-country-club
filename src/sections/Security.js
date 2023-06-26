@@ -23,24 +23,25 @@ const Securyty = () => {
             <img src={golf} alt="golf infantil" />
             <H6>Golf</H6>
             <BodyL>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              La escuelita es mixta y funciona los sábados por la mañana. 2
+              profesores irán avanzando en la enseñanza de este deporte mientras
+              aprenden jugando
             </BodyL>
           </div>
           <div>
             <img src={futbol} alt="futbol  infantil" />
             <H6>Futbol</H6>
             <BodyL>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              La escuelita es de iniciación mixta. Funciona 2 días por semana,
+              lunes y miercoles por la tarde.
             </BodyL>
           </div>
           <div>
             <img src={padel} alt="padel infantil" />
             <H6>Padel</H6>
             <BodyL>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Se da 2 veces por semana en 3 niveles (iniciación niños de jardín
+              de infantes, niños en etapa escolar y adolescentes)
             </BodyL>
           </div>
         </Items>
@@ -78,13 +79,16 @@ const Items = styled.div`
 
 const SecurytySection = styled.section`
   padding: 150px 0 244px 0;
+  box-sizing: border-box;
   background: white;
   color: #1b1f24;
   text-align: center;
   @media only screen and (max-width: 700px) {
     padding: 0;
   }
-  h5, h6, p {
+  h5,
+  h6,
+  p {
     text-align: center;
     color: #1b1f24;
   }

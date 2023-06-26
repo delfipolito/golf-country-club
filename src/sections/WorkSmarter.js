@@ -9,6 +9,7 @@ const Hero = () => <HeroSection />
 const HeroSection = styled.section`
   width: 100%;
   height: 500px;
+  box-sizing: border-box;
   margin: 0;
   padding: 50px 8.5%;
   text-align: center;

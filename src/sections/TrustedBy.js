@@ -22,7 +22,8 @@ const TrustedBy = () => (
 )
 
 const TrustedBySection = styled.section`
-  background: linear-gradient(#15625b, #106637);
+box-sizing: border-box;
+  background: linear-gradient(#0f4226, #147440);
   height: auto;
   @media only screen and (max-width: 700px) {
     padding: 60px 0 0 0;
@@ -32,10 +33,10 @@ const TrustedBySection = styled.section`
 const Box = styled.div`
   max-width: 900px;
   margin: auto;
-  padding: 70px 0 70px 0;
+  padding: 30px 0 70px 0;
   text-align: center;
-  p {
-    color: white;
+  p, h5 {
+    color: #aa934c;
   }
   div {
     display: flex;

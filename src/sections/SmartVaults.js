@@ -27,21 +27,13 @@ const SmartVaults = () => {
             grupo de golfistas apasionados crearon una comunidad acogedora e
             inclusiva para todos aquellos que quisieran iniciarse en el deporte.
             Hoy en día, nuestro club sigue encarnando ese mismo espíritu de
-            camaradería y deportividad, siendo el lugar perfecto para los
-            amantes del deporte y la actividad física.
+            camaradería y deportividad.
           </BodyL>
 
           <BodyL>
             Además de nuestro campo de golf, ofrecemos una amplia variedad de
             deportes y actividades para nuestros miembros, desde fútbol, padel,
             basquet y natación hasta yoga y gimnasia funcional.
-          </BodyL>
-
-          <BodyL>
-            Para aquellos que buscan una experiencia más distendida, nuestro
-            club house cuenta con un resto-bar, donde podés disfrutar de una
-            deliciosa comida y tragos mientras contemplás el campo de golf, los
-            atardeceres y disfrutás de la tranquilidad del lugar.
           </BodyL>
 
           <BodyL>
@@ -60,6 +52,7 @@ const SmartVaults = () => {
 
 const SmartVaultsSection = styled.section`
   padding-top: 100px;
+  box-sizing: border-box;
   height: auto;
   min-height: 950px;
 

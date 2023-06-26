@@ -40,6 +40,7 @@ height: 90px;
 
 const NavbarSection = styled.section`
   z-index: 100;
+  box-sizing: border-box;
   background: transparent;
   background: #121418;
   @media only screen and (max-width: 700px) {
