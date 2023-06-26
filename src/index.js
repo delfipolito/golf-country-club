@@ -5,7 +5,6 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { HashRouter, Routes, Route } from 'react-router-dom'
 import Terms from './sections/Terms'
-import Whitepaper from './sections/Whitepaper'
 import PageNotFound from './sections/PageNotFound'
 import { ParallaxProvider } from 'react-scroll-parallax'
 
@@ -17,7 +16,6 @@ ReactDOM.render(
         <Route path="/" >
           <Route index element={<App />} />
           <Route path="terms" element={<Terms />} />
-          <Route path="whitepaper" element={<Whitepaper />} />
         </Route>
         <Route path="*" element={<PageNotFound />} />
       </Routes>

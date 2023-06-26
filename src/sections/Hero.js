@@ -1,50 +1,27 @@
 import React from 'react'
 import Navbar from './Navbar'
 import styled from 'styled-components'
+import heroImage from '../assets/hero2.jpg'
 import { H1, BodyL, Button, Container } from '../styles/texts'
 
-const Hero = () => (
-  <HeroSection>
-    <Container>
-      <Box>
-        <H1>
-          Interact with DeFi in a simpler, safer way through Smart Vaults
-        </H1>
-        <BodyL>
-          Our platform helps you grow your business by transforming manual work
-          into automated actions.
-        </BodyL>
-        <Button
-          href="https://airtable.com/shrSvH8fTJcbHq0xl"
-          target="_blank"
-        >
-          Request a demo
-        </Button>
-      </Box>
-    </Container>
-  </HeroSection>
-)
+const Hero = () => <HeroSection />
 
 const HeroSection = styled.section`
-  background: #121418;
-  height: auto;
-  min-height: 700px;
-  padding-top: 80px;
-  @media only screen and (max-width: 700px) {
-    min-height: 650px;
-    padding: 60px 0 0 0;
-  }
-`
-
-const Box = styled.div`
-  max-width: 780px;
-  margin: auto;
-  padding: 70px 0 70px 0;
-  p {
-    max-width: 600px;
-    margin-top: 0px;
-    margin-bottom: 30px;
-  }
+  width: 100%;
+  height: calc(90vh + 40px);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 50px 8.5%;
+  background: linear-gradient(135deg, #106637,#15625b);
+  text-align: center;
+  background-image: url(${heroImage});
+  background-position: bottom;
+  background-size: cover;
+  margin-top: -64px;
+  position: relative;
+  z-index: 3;
+  padding-bottom: calc(50px + 6vw);
+  clip-path: polygon(0 calc(100% - 6vw), 100% 100%, 100% 0, 0 0);
 `
 
 export default Hero

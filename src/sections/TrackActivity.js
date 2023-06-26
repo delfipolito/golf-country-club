@@ -1,56 +1,73 @@
 import React from 'react'
 import styled from 'styled-components'
-import laptop from '../assets/laptop.svg'
+import henrry from '../assets/henrry.jpeg'
 import telegram from '../assets/telegram.svg'
 import discord from '../assets/discord.svg'
-import { H1, BodyL, Container } from '../styles/texts'
+import { H3, H6, BodyL, Container } from '../styles/texts'
 
 const TrackActivity = () => (
   <TrackActivitySection>
-    <TrackActivityContainer>
+    <Henrry>
       <div>
-        <H1>Track all activity on chain</H1>
-        <Body>With notifications on <img src={telegram} /> <img src={discord} /></Body>
+        <H3>Henrry Smith </H3>
+        <H6>Green lounge</H6>
+        <br />
+        <br />
+        <BodyL>
+          Nuestro resto-bar abrió sus puertas recientemente para ser el lugar de
+          encuentro de jugadores, socios y todo aquel que quiera disfrutar del
+          lugar. After golf, peñas, almuerzos en familia, tragos con amigos.
+          Abierto de miércoles a domingo, ofrece variedad de platos y bebidas a
+          muy bajo costo. <br />
+          <br />
+          Con reserva previa (prioridad para socios) al número +54 3446 442701
+        </BodyL>
       </div>
-      <div>
-        <img src={laptop} />
-      </div>
-    </TrackActivityContainer>
+    </Henrry>
+
+    <img src={henrry} alt="henrry smith" />
   </TrackActivitySection>
 )
 
 const TrackActivitySection = styled.section`
-  background: #1B1F24;
-  // min-height: 100vh;
+  background: linear-gradient(#15625b, #106637);
+  box-sizing: border-box;
   height: auto;
-  min-height: 900px;
+  min-height: 540px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0;
+  @media only screen and (max-width: 700px) {
+    flex-direction: column;
+  }
+  gap: 0px;
+
+  img {
+    object-fit: contain;
+    max-width: 800px;
+    margin-right: 0;
+    @media only screen and (max-width: 700px) {
+      max-width: 90vw;
+    }
+  }
   @media only screen and (max-width: 700px) {
     min-height: 580px;
   }
 `
 
-const Body = styled(BodyL)`
-  display: flex;
-  align-items: center;
-  img {
-    margin: 0 16px;
-  }
-`
-
-const TrackActivityContainer = styled(Container)`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+const Henrry = styled.div`
+  height: 540px;
+  width: calc(100vw - 800px);
+  box-sizing: border-box;
   @media only screen and (max-width: 700px) {
-    flex-direction: column;
-    img {
-      max-width: 80vw;
-    }
+    width: 100%;
   }
-  gap: 0px;
-  h1 {
-    width: 450px;
-  }
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 `
 
 export default TrackActivity

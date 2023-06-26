@@ -1,28 +1,26 @@
 import React from 'react'
 import styled from 'styled-components'
 import { LinkL } from '../styles/texts'
-import github from '../assets/github.svg'
-import twitter from '../assets/twitter.svg'
-import discord from '../assets/discord.svg'
+import facebook from '../assets/Facebook.svg'
+import instagram from '../assets/Instagram.svg'
 
 const Tabs = ({ mode }) => {
   return (
     <TabsBox mode={mode}>
-      <LinkL href="https://mimic.fi/whitepaper.pdf" target="_blank">
-        Whitepaper
-      </LinkL>
-      <LinkL href="https://docs.mimic.fi/general/whats-mimic" target="_blank">
-        Docs
-      </LinkL>
       <Social>
-        <LinkL href="https://github.com/mimic-fi" target="_blank">
-          <img src={github} />
+        <LinkL
+          href="https://www.facebook.com/Golfgualeguaychu/"
+          target="_blank"
+          aria-label="facebook"
+        >
+          <img src={facebook} alt="facebook" />
         </LinkL>
-        <LinkL href="https://twitter.com/mimicfi" target="_blank">
-          <img src={twitter} />
-        </LinkL>
-        <LinkL href="https://discord.com/invite/pZsRmtTgNa" target="_blank">
-          <img src={discord} />
+        <LinkL
+          href="https://www.instagram.com/gchucountryclub/"
+          target="_blank"
+          aria-label="instagram"
+        >
+          <img src={instagram} alt="instagram" />
         </LinkL>
       </Social>
     </TabsBox>
@@ -32,11 +30,11 @@ const Social = styled.div`
   display: flex;
 `
 const TabsBox = styled.div`
-  display: ${props => (props.mode == 'large' ? 'flex' : 'block')};
+  display: ${props => (props.mode === 'large' ? 'flex' : 'block')};
   align-items: center;
   text-align: center;
   a {
-    padding: ${props => (props.mode == 'large' ? '0 20px' : '20px 0')};
+    padding: ${props => (props.mode === 'large' ? '0 20px' : '20px 0')};
     display: flex;
     align-items: center;
     img {

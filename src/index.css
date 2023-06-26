@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #121418;
+  background: #0f4226;
   overflow-x: hidden;
   width: 100vw;
 }
@@ -26,9 +26,11 @@ a, a span, button {
 @font-face {
  font-family: 'GTWalsheimPro';
  src: url('./fonts/GTWalsheimPro-Regular.ttf') format('opentype');
+ font-display: swap;
 }
 
 @font-face {
  font-family: 'GTWalsheimProBold';
  src: url('./fonts/GTWalsheimPro-Bold.ttf') format('opentype');
+ font-display: swap;
 }

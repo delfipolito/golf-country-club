@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "homepage": "https://mimic-fi.github.io",
+  "homepage": "https://delfipolito.github.io/golf-country-club",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,7 +17,7 @@
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
     "axios": "^0.26.1",
-    "gh-pages": "^4.0.0",
+    "gh-pages": "^5.0.0",
     "hamburger-react": "^2.4.1",
     "numeral": "^2.0.6",
     "react": "^17.0.2",
